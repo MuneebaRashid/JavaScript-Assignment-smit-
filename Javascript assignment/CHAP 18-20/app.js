@@ -65,19 +65,19 @@
 // }
 
 //QUESTION#7
-// let bakeryItems = ["cake","apple pie","cookies","chips","patties"];
-// let item = prompt("Welcome to ABC Bakery.What do you want to order sir/mam?");
-// let itemFound = false;
-// for (let i = 0; i <=bakeryItems.length; i++){
-// if (item.toLowerCase() === bakeryItems[i] ){
-//     document.write(bakeryItems[i] + " is availabe at index " + i + " in our bakery")
-//     itemFound = true;
-//     break;
-// }
-// }
-// if(!itemFound){
-//     document.write("We are sorry " + item + " is not availabe in our bakery")
-// }
+let bakeryItems = ["cake","apple pie","cookies","chips","patties"];
+let item = prompt("Welcome to ABC Bakery.What do you want to order sir/mam?");
+let itemFound = false;
+for (let i = 0; i <=bakeryItems.length; i++){
+if (item.toLowerCase() === bakeryItems[i] ){
+    document.write(bakeryItems[i] + " is availabe at index " + i + " in our bakery")
+    itemFound = true;
+    break;
+}
+}
+if(!itemFound){
+    document.write("We are sorry " + item + " is not availabe in our bakery")
+}
 //QUESTION#8
 // let arrNum = [24, 53, 78, 91, 12];
 // document.write("<b>Aray items:</b>" + arrNum);
